@@ -10,13 +10,9 @@ Use the package manager [npm](https://www.npmjs.com/) to install necessary depen
 ```bash
 npm i
 ```
-*Incase your system does not have  arp-scan installed, use following command.
 
-```bash
-sudo apt-get install arp-scan
-```
 
-*Note: This code is tested successfully on Ubuntu. For Windows few additional changes would be required.
+*Note: This code is tested successfully on Ubuntu.
 
 
 ## Start
