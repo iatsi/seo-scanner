@@ -4,6 +4,7 @@ exports.decodeHTML = async function(req,res){
      try{
 
         let url = req.query.url;
+        console.log(url, req.query);
         let responseObject = await requester(url);
 
         let htmlLook = responseObject.body;
@@ -19,6 +20,15 @@ exports.decodeHTML = async function(req,res){
          console.log(e);
          res.json({error:e});
      }
+}
+
+
+exports.landingPage = async function(req,res){
+    let content = ` <html><body>  
+       <p style="text-align:center; font-size:25px">Thank you! I hope you find a correct <b>path</b></p> .
+
+    </body></html>`
+    res.send(content);
 }
 
 function validifyUrls(url = ''){

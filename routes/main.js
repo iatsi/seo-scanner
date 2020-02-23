@@ -4,6 +4,8 @@ let controller = require('../controller/main');
 
 
 router.get('/get', controller.decodeHTML); 
+router.get('/', controller.landingPage); 
+
 
 
 module.exports = router;
