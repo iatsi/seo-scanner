@@ -24,13 +24,13 @@ node index.js
 ## Usage
 After starting the node process, use path as <domain>/get?url=**https://www.samsung.com**
 
-Demo is hosted at https://api.woofh.com
+Demo is hosted at https://woofh.com
 
 Sample test urls
- 1. https://api.woofh.com/get?url=https://www.samsung.com
- 2. https://api.woofh.com?url=https://www.mi.com
- 3. https://api.woofh.com?url=https://www.apple.com
- 4. https://api.woofh.com?url=https://www.oneplus.com
+ 1. https://woofh.com/get?url=https://www.samsung.com
+ 2. https://woofh.com?url=https://www.mi.com
+ 3. https://woofh.com?url=https://www.apple.com
+ 4. https://woofh.com?url=https://www.oneplus.com
 
 
 ## Contributing
