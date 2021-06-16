@@ -28,9 +28,9 @@ Demo is hosted at https://woofh.com
 
 Sample test urls
  1. https://woofh.com/get?url=https://www.samsung.com
- 2. https://woofh.com?url=https://www.mi.com
- 3. https://woofh.com?url=https://www.apple.com
- 4. https://woofh.com?url=https://www.oneplus.com
+ 2. https://woofh.com/get?url=https://www.mi.com
+ 3. https://woofh.com/get?url=https://www.apple.com
+ 4. https://woofh.com/get?url=https://www.oneplus.com
 
 
 ## Contributing
